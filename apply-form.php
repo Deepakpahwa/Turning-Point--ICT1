@@ -85,7 +85,7 @@ echo "<script>window.location.href ='apply-form.php'</script>";
 				<div class="col-md-12 contact-right"> 
 					<form  method="post" enctype="multipart/form-data">
 	
-<p style="padding-top: 20px; font-size: 15px"><strong>Packages:  </strong>
+<p style="padding-top: 20px; font-size: 15px"><strong>Packages:&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</strong>
                                     <select name="packages" id="packages" required="true">
                                         <option value="">Select</option>
                                         <?php $query=mysqli_query($con,"select * from tblpackages");
@@ -101,7 +101,7 @@ echo "<script>window.location.href ='apply-form.php'</script>";
                                   <p style="padding-top: 20px; font-size: 15px"><strong>Training Start Date:  </strong>
                                     <input type="date" id="datepicker" name="trainingdate" placeholder="Trainin Date" required="true"></p>
 
-<p style="padding-top: 20px; font-size: 15px"><strong>Training Time:  </strong>
+<p style="padding-top: 20px; font-size: 15px"><strong>Training Time: &nbsp &nbsp &nbsp &nbsp  </strong>
                                     <select name="time" id="Time" required="">
                                         <option value="hide">-- Choose --</option>
                                         <option value="09:00AM - 10:00AM">09:00AM - 10:00AM</option>
